@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "tep_id",
+      "type": "string",
+      "description": "Title Entry Page (TEP) identifier"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "name of the archived resource"
+    },
+    {
+      "name": "gathered_url",
+      "type": "string",
+      "description": "the original url of the archived resource"
+    },
+    {
+      "name": "surt",
+      "type": "string",
+      "description": "the surt (Sort-friendly URI Reordering Transform) is a version of the url that reverses the order of the domain components to put the top-level domain first, making it easier to group or sort resources by domain"
+
+    }
+  ]
+}
