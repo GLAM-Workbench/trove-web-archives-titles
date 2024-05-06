@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-05-06T06:20:45+00:00",
+            "datePublished": "2024-05-06",
             "description": "This dataset contains a complete list of Pandora's archived web resource titles.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-titles/archive/refs/heads/main.zip"
@@ -20,6 +20,9 @@
                 },
                 {
                     "@id": "pandora-titles.csv"
+                },
+                {
+                    "@id": "pandora-titles-schema.json"
                 }
             ],
             "isBasedOn": {
@@ -47,6 +50,67 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests a complete collection of archived web page titles from [Pandora](http://pandora.nla.gov.au/), the National Library of Australia's selective web archive.\n\nPandora has been selecting web sites and online resources for preservation since 1996. It has assembled a collection of more than 80,000 titles, organised into subjects and collections. The archived websites are now part of the Australian Web Archive (AWA), which combines the selected titles with broader domain harvests, and is searchable through Trove. However, Pandora's curated collections offer a useful entry point for researchers trying to find web sites relating to particular topics or events.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
+            },
+            "name": "Harvest the full collection of Pandora titles",
+            "position": 2,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "pandora-titles.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "conformsTo": {
+                "@id": "pandora-titles-schema.json"
+            },
+            "contentSize": 13200322,
+            "dateModified": "2024-05-06",
+            "encodingFormat": "text/csv",
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "pandora-titles.csv",
+            "sdDatePublished": "2024-05-06",
+            "size": 87741,
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-titles/raw/main/pandora-titles.csv"
+        },
+        {
+            "@id": "pandora-titles-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            },
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for pandora-titles.csv dataset",
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-titles/raw/main/pandora-titles-schema.json"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
@@ -113,58 +177,12 @@
             "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook harvests a complete collection of archived web page titles from [Pandora](http://pandora.nla.gov.au/), the National Library of Australia's selective web archive.\n\nPandora has been selecting web sites and online resources for preservation since 1996. It has assembled a collection of more than 80,000 titles, organised into subjects and collections. The archived websites are now part of the Australian Web Archive (AWA), which combines the selected titles with broader domain harvests, and is searchable through Trove. However, Pandora's curated collections offer a useful entry point for researchers trying to find web sites relating to particular topics or events.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
-            },
-            "name": "Harvest the full collection of Pandora titles",
-            "position": 2,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "pandora-titles.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 13200346,
-            "dateModified": "2024-05-03",
-            "encodingFormat": "text/csv",
-            "license": {
-                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
-            },
-            "name": "pandora-titles.csv",
-            "sdDatePublished": "2024-05-06",
-            "size": 87741,
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives-titles/raw/main/pandora-titles.csv"
-        },
-        {
             "@id": "#harvest-pandora-titles_run_0",
             "@type": "CreateAction",
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2024-05-03",
+            "endDate": "2024-05-06",
             "instrument": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb"
             },
