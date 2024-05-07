@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-05-06",
+            "datePublished": "2024-05-07",
             "description": "This dataset contains a complete list of Pandora's archived web resource titles.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-titles/archive/refs/heads/main.zip"
@@ -89,15 +89,15 @@
             "conformsTo": {
                 "@id": "pandora-titles-schema.json"
             },
-            "contentSize": 13200322,
-            "dateModified": "2024-05-06",
+            "contentSize": 13201919,
+            "dateModified": "2024-05-07",
             "encodingFormat": "text/csv",
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             "name": "pandora-titles.csv",
             "sdDatePublished": "2024-05-06",
-            "size": 87741,
+            "size": 87757,
             "url": "https://github.com/GLAM-Workbench/trove-web-archives-titles/raw/main/pandora-titles.csv"
         },
         {
@@ -182,7 +182,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2024-05-06",
+            "endDate": "2024-05-07",
             "instrument": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb"
             },
